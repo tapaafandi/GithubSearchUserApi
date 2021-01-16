@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.GithubSearchUserApi" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaryWhite</item>
+        <item name="colorPrimaryVariant">@color/primaryWhite</item>
+        <item name="colorOnPrimary">@color/secondaryBlack</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorOnPrimary</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="splashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_image</item>
+        <item name="android:statusBarColor">@color/primaryWhite</item>
+    </style>
+
+    <style name="TextContent" parent="@style/TextAppearance.AppCompat">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+
+    <style name="TextContent.Headline4">
+        <item name="android:textColor">@color/secondaryBlack</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextContent.Headline6">
+        <item name="android:textColor">@color/secondaryBlack</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TextContent.Body2">
+        <item name="android:textColor">@color/secondaryBlack</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextContent.Headline6.Accent">
+        <item name="android:textColor">@color/secondaryBlack</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextContent.Subtitle">
+        <item name="android:textColor">@color/colorGrey</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextContent.Subtitle.BlueText">
+        <item name="android:textColor">@color/colorDarkBlue</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="TextContent.Subtitle.Accent">
+        <item name="android:textColor">@color/secondaryBlack</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="About" parent="@style/TextAppearance.AppCompat">
+        <item name="android:textColor">@color/secondaryBlack</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="About.Headline6">
+        <item name="android:textColor">@color/secondaryBlack</item>
+        <item name="fontFamily">@font/poppins_bold</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="About.Accent">
+        <item name="android:textColor">@color/secondaryBlack</item>
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

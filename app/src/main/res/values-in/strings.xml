@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Github Pencarian App</string>
+    <string name="search">Cari</string>
+    <string name="search_hint">Cari pengguna</string>
+    <string name="settings">Pengaturan</string>
+    <string name="change_language">Ubah Bahasa</string>
+    <string name="welcome_search">Selamat datang di halaman pencarian. Silahkan tekan ikon pencarian diatas untuk memulai pencarian.</string>
+    <string name="searching_for">Mencari \"%1s\"</string>
+    <string name="following">Mengikuti</string>
+    <string name="follower">Pengikut</string>
+    <string name="bio">Bio</string>
+    <string name="loading">Memuat…</string>
+    <string name="repository">Repository</string>
+</resources>
